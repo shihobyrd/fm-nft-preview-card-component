@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --nft-soft-blue: hsl(215, 51%, 70%);
+    --nft-cyan: hsl(178, 100%, 50%);
+
+    --nft-main-bg-vdblue: hsl(217, 54%, 11%);
+    --nft-card-bg-vdblue: hsl(216, 50%, 16%);
+    --nft-line-vdblue: hsl(215, 32%, 27%);
+    --nft-white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
