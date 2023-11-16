@@ -76,13 +76,6 @@ main {
     opacity: 1;
 }
 
-
-/* .nft-card__img-container--overlay:hover {
-    display: block;
-    background: var(--nft-cyan);
-    opacity: 1;
-} */
-
 .nft-card__text-container h1 {
     font-size: 1.5rem;
     font-weight: 600;
@@ -170,8 +163,41 @@ main {
     color: var(--nft-white);
 }
 
-
 .nft-card__normal-text:hover {
     cursor: pointer;
     color: var(--nft-cyan);
+}
+
+
+@media screen and (min-width: 480px) {
+    .nft-card {
+        width: 350px;
+    }
+
+    .nft-card__text-container h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    .nft-card__text-container p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .nft-card__value {
+        margin-bottom: 1.5rem;
+    }
+
+    .nft-card__value-left span,
+    .nft-card__value-right span {
+        font-size: 1.2rem;
+    }
+
+    .nft-card__line {
+        margin-bottom: 1.5rem;
+    }
+
+    .nft-card__user span {
+        font-size: 1rem;
+    }
+
 }
