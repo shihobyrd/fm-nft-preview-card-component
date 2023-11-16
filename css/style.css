@@ -72,6 +72,7 @@ main {
 }
 
 .nft-card__img-container:hover .nft-card__img-container--overlay {
+    cursor: pointer;
     opacity: 1;
 }
 
@@ -86,6 +87,11 @@ main {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
+}
+
+.nft-card__text-container h1:hover {
+    cursor: pointer;
+    color: var(--nft-cyan);
 }
 
 .nft-card__text-container p {
@@ -162,4 +168,10 @@ main {
 
 .nft-card__normal-text {
     color: var(--nft-white);
+}
+
+
+.nft-card__normal-text:hover {
+    cursor: pointer;
+    color: var(--nft-cyan);
 }
