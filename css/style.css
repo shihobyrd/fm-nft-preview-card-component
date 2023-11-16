@@ -14,4 +14,32 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    background: var(--nft-main-bg-vdblue);
+    color: var(--nft-white);
+    /* font-size: 18px; */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nft-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: var(--nft-card-bg-vdblue);
+    width: 324px;
+}
+
+.nft-card__img-container {
+    margin-bottom: 30px;
+}
+
+.nft-card__img-container img {
+    width: 100%;
+    border-radius: .5rem;
 }
